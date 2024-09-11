@@ -13,6 +13,7 @@ The build environment system is Ubuntu 22.04.
 ```
 mkdir build && cd build
 cmake ../cyber
+make
 ```
 
 ## Build Publisher and Subscriber Executable
@@ -23,6 +24,7 @@ cmake ../cyber
 cd examples/pub && mkdir build
 cd build
 cmake ..
+make
 ```
 
 ### 2.Build Subscriber
@@ -31,5 +33,6 @@ cmake ..
 cd examples/sub && mkdir build
 cd build
 cmake ..
+make
 ```
 
